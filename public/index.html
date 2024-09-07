@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Store</title>
+    <link rel="stylesheet" href="./build/tailwind.css" />
+  </head>
+  <body class="bg-slate-800">
+    <!-- nav bar -->
+    <nav
+      class="container flex items-center justify-between mx-auto px-24 2xl:max-w-7xl 2xl:mx-auto pt-10 pb-8"
+    >
+      <div class="flex">
+        <span class="pl-4"><img src="/assets/svg/logo.svg" alt="logo" /></span>
+        <ul class="text-white flex gap-x-5">
+          <li><a href="#">خانه</a></li>
+          <li><a href="#">فروشگاه</a></li>
+          <li><a href="#">درباره ما</a></li>
+          <li><a href="#">تماس با ما</a></li>
+          <li><a href="#">وبلاگ</a></li>
+        </ul>
+      </div>
+      <div class="flex gap-x-5 items-center">
+        <span class="text-white cursor-pointer"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
+          </svg>
+        </span>
+        <div class="text-white cursor-pointer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="size-6"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+        <button
+          class="w-32 h-10 text-white bg-violet-500 cursor-pointer rounded-lg"
+        >
+          ثبت نام
+        </button>
+      </div>
+    </nav>
+    <!-- slide bar -->
+    <div
+      class="relative mx-auto 2xl:max-w-7xl 2xl:mx-auto container px-24 w-full pb-11"
+    >
+      <div class="pb-5">
+        <img
+          src="/assets/images/poster.png"
+          alt="poster"
+          class="w-full rounded-4xl"
+        />
+      </div>
+      <div class="relative flex items-center w-fit">
+        <span
+          class="text-white absolute right-0.5 flex items-center justify-center bg-violet-500 rounded-full w-6 h-6"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-5 h-5 font-bold"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </span>
+        <div class="flex items-center px-1">
+          <div class="rounded-lg px-2">
+            <img src="/assets/images/p1.png" alt="" />
+          </div>
+          <div class="bg-gray-700 p-1 rounded-lg">
+            <img src="/assets/images/p2.png" alt="" />
+          </div>
+          <div class="rounded-lg px-2">
+            <img src="/assets/images/p3.png" alt="" />
+          </div>
+          <div class="rounded-lg px-2">
+            <img src="/assets/images/p4.png" alt="" />
+          </div>
+        </div>
+        <span
+          class="text-white absolute left-0.5 flex items-center justify-center bg-violet-500 rounded-full w-6 h-6"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-5 h-5 font-bold"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5 8.25 12l7.5-7.5"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        class="absolute flex flex-col bottom-12 left-52 w-1/3 h-64 rounded-3xl backdrop-blur-2xl border-2 border-fuchsia-700"
+      >
+        <span
+          class="px-2 py-1 text-orange-500 bg-orange-300 bg-opacity-25 mt-4 mr-8 text-xs border-orange-700 rounded-full w-fit"
+          >مقاله جدید</span
+        >
+        <h4 class="text-white text-3xl font-bold mr-8 mt-4">
+          Call of Duty Warzone
+        </h4>
+        <p class="flex-1 text-white mx-8 mt-4">
+          مانند دیگر بازی‌های بتل رویال سوار یک هواپیما خواهید شد و روی نقشه
+          فرود خواهید آمد. وجه تفاوت این بازی نسبت به بقیه در تعداد بازیکنان آن
+          است.
+        </p>
+        <div class="flex items-center justify-between">
+          <div
+            class="flex items-center bg-violet-500 rounded-full mb-4 mr-8 justify-center"
+          >
+            <span
+              ><img
+                src="/assets/svg/comment.svg"
+                alt="commentLogo"
+                class="h-full w-full"
+            /></span>
+            <span class="text-white text-xs py-0.5 pr-0.5 pl-3">۲۰ نظر</span>
+          </div>
+          <div class="w-16 h-16 p-1">
+            <img
+              src="/assets/images/next-icon.png"
+              alt=""
+              class="w-full h-full"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/src/js/gamescript.js"></script>
+</html>
