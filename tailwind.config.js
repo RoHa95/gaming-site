@@ -1,13 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./public/**/*.html", "./src/js/*.js"],
-  darkMode:'class',
+  darkMode: "class",
   theme: {
     extend: {
-      fontFamily:{
-        sans:["vazir"]
-      }
+      fontFamily: {
+        sans: ["vazir"],
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/forms"),
+    // ...
+  ],
 };
