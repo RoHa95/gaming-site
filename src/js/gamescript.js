@@ -72,6 +72,7 @@ cardItem.forEach((item) => {
     cardItem.forEach((item) => {
       if (item.dataset.idcard !== e.currentTarget.dataset.idcard) {
         item.classList.remove("scale-110");
+        item.classList.remove("transform");
       
       }
     });
