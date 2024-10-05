@@ -7,10 +7,13 @@ module.exports = {
       fontFamily: {
         sans: ["vazir"],
       },
-    },
+      backgroundImage: {
+        'article-pattern': "url('/assets/images/article1.png')",
+    }
   },
+  
   plugins: [
     require("@tailwindcss/forms"),
     // ...
   ],
-};
+}};
