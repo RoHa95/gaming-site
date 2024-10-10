@@ -1574,6 +1574,11 @@
       pic4: "Call of Duty",
     };
 
+    const pic1 = "https://s32.picofile.com/file/8479674300/pic1.png";
+    const pic2 = "https://s32.picofile.com/file/8479674334/pic2.png";
+    const pic3 = "https://s32.picofile.com/file/8479674342/pic3.png";
+    const pic4 = "https://s32.picofile.com/file/8479674350/pic4.png";
+
     //functions
     //functions of dark mode
     darkBtn.forEach((item) => {
@@ -1592,7 +1597,16 @@
         item.parentElement.classList.add("p-1");
         item.parentElement.classList.remove("px-2");
         console.log(mainBackground.src);
-        mainBackground.src = `/assets/images/${pic}.png`;
+        if (pic === "pic1") {
+          mainBackground.src = pic1;
+        } else if (pic === "pic2") {
+          mainBackground.src = pic2;
+        } else if (pic === "pic3") {
+          mainBackground.src = pic3;
+        } else if (pic === "pic4") {
+          mainBackground.src = pic4;
+        }
+        
         console.log(titleSlideContainer.innerHTML);
 
         // titleSlide.map(item =>{
